@@ -1,11 +1,10 @@
 # Visually Indicated Sounds 
 ## 被引用的原因主要在于以下几点，
-一、 利用多模态的一种数据__生成__另一种数据（图像、声音、视频、框架图、颜色等) 
+1. 利用多模态的一种数据__生成__另一种数据（图像、声音、视频、框架图、颜色等) 
    我想到，能不能借鉴统计中**EM算法**对于**混合模型**或者**缺失数据处理**的思想，设计出可以处理缺失标签数据的模型或者算法。
-二、 __无监督学习__的方式用于预训练或者分类
-   用一些特征在分布上的相似性去训练另一些特征在分布上的相似性，我想这是这个方法的根本来源。其实这跟 GAN 的思路也很像，下面的 Aytar等人的Cross-Modal Scene Networks 两篇里面着重讲了共享特征的设计。只不过其中共享特征都是基于图像的模型中**highlevel**的特征，是有明显的语义信息的。
-   
-这个数据集只有他们这个组的人在用，发了两篇文章。一篇是 [Visually Indicated Sounds](https://arxiv.org/pdf/1512.08512.pdf)，另一篇就是 [Ambient Sound Provides Supervision for Visual Learning](https://arxiv.org/pdf/1608.07017.pdf), 很明显这个团队还在继续这项工作，所以我们要做的话，要找一个好的切入点，要不然可能会被涵盖到他们的工作中。
+2. __无监督学习__的方式用于预训练或者分类
+   用一些特征在分布上的相似性去训练另一些特征在分布上的相似性，我想这是这个方法的根本来源。其实这跟 GAN 的思路也很像，下面的 Aytar等人的Cross-Modal Scene Networks 两篇里面着重讲了共享特征的设计。只不过其中共享特征都是基于图像的模型中**highlevel**的特征，是有明显的语义信息的。  
+3. 这个数据集只有他们这个组的人在用，发了两篇文章。一篇是 [Visually Indicated Sounds](https://arxiv.org/pdf/1512.08512.pdf)，另一篇就是 [Ambient Sound Provides Supervision for Visual Learning](https://arxiv.org/pdf/1608.07017.pdf), 很明显这个团队还在继续这项工作，所以我们要做的话，要找一个好的切入点，要不然可能会被涵盖到他们的工作中。
 
 ## <a href = "https://arxiv.org/pdf/1603.08511.pdf"> Colorful Image Colorization  </a>
 
