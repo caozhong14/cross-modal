@@ -49,7 +49,7 @@ Our goal in this paper is to learn a representation that is aligned across modal
 
 **Keywords:** Unsupervised learning; Videos; Sequence Verification; Action Recognition; Pose Estimation; Convolutional Neural Networks
 
-**Relativ**
+**Relative**
 Several recent papers [36, 48, 50] use egomotion constraints from video to further constrain the learning. Jayaraman et al. [36] show how they can learn equivariant transforms from such constraints. Similar to our work, they use full video frames for learning with little pre-processing. Owens et al. [_51_] use audio signals from videos to learn visual representations. Another line of work [52] uses video data to mine patches which belong to the same object to learn representations useful for distinguishing objects. Typically, these approaches require significant pre-processing to create this task. While our work also uses videos, we explore them in the spirit of sequence verification for action recognition which learns from the raw video with very little pre-processing.
 
 **Dataset** We report all our results using split 1 of the benchmark UCF101 [12]. We demonstrate the effectiveness of our unsupervised method on benchmark action recognition datasets UCF101 [12] and  dataset HMDB51 [13], and the FLIC [14] and MPII [15] pose estimation datasets.
