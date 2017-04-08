@@ -13,4 +13,4 @@ We evaluate our algorithm using a “colorization Turing test,” asking human p
 While image colorization is a boutique computer graphics task, it is also an in- stance of a difficult pixel prediction problem in computer vision. Here we have shown that colorization with a deep CNN and a well-chosen objective function can come closer to producing results indistinguishable from real color photos. Our method not only provides a useful graphics output, but can also be viewed as a pretext task for representation learning. Although only trained to color, our network learns a representation that is surprisingly useful for object clas- sification, detection, and segmentation, performing strongly compared to other self-supervised pre-training methods.
 
 
-## [Generative Image Modeling using Style and Structure Adversarial Networks]:https://arxiv.org/pdf/1603.05631.pdf
+## [Generative Image Modeling using Style and Structure Adversarial Networks](https://arxiv.org/pdf/1603.05631.pdf)
