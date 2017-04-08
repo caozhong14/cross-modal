@@ -58,3 +58,23 @@ Several recent papers [36, 48, 50] use egomotion constraints from video to furth
 In this paper, we studied unsupervised learning from the raw spatiotemporal signal in videos. Our proposed method outperforms other existing unsupervised methods and is competitive with supervised methods. A next step to our work is to explore different types of videos and use other ‘free’ signals such as optical flow. Another direction is to use a combination of CNNs and RNNs, and to extend our tuple verification task to much longer sequences. We believe combining this with semi-supervised methods [70, 71] is a promising future direction.
 
 
+## @@@[Ambient Sound Provides Supervision for Visual Learning](https://arxiv.org/pdf/1608.07017.pdf)
+>>Andrew Owens1, Jiajun Wu1, Josh H. McDermott1, William T. Freeman1,2, and Antonio Torralba1
+>>1 Massachusetts Institute of Technology
+>>2 Google Research
+**Abstract.**
+The sound of crashing waves, the roar of fast-moving cars – sound conveys important information about the objects in our surround- ings. In this work, we show that ambient sounds can be used as a super- visory signal for learning visual models. To demonstrate this, we train a convolutional neural network to predict a statistical summary of the sound associated with a video frame. We show that, through this pro- cess, the network learns a representation that conveys information about objects and scenes. We evaluate this representation on several recogni- tion tasks, finding that its performance is comparable to that of other state-of-the-art unsupervised learning methods. Finally, we show through visualizations that the network learns units that are selective to objects that are often associated with characteristic sounds.
+
+**Keywords:** Sound, convolutional networks, unsupervised learning.
+
+**Relative**
+Recently, researchers have proposed many unsupervised learning methods that learn visual representations by solving prediction tasks (sometimes known as pretext tasks) for which the held-out prediction target is derived from a natural signal in the world, rather than from human annotations. This style of learning has been called “self supervision” [4] or “natural supervision” [_30_].
+Our approach is closely related to recent audio-visual work [_30_] that predicts soundtracks for videos that show a person striking objects with a drumstick. 
+A natural question, then, is how our model should represent sound. Perhaps the first approach that comes to mind would be to estimate a frequency spectrum at the moment in which the picture was taken, similar to [_30_]. However, this is potentially suboptimal because in natural scenes it is difficult to predict the precise timing of a sound from visual information.
+
+**Dataset** Flickr video dataset, Places dataset, object recognition on the PASCAL VOC 2007 dataset, scene recognition task using the SUN dataset, object-selective per category when evaluating the model on the SUN and ImageNet datasets,
+
+**Discussion**
+Sound has many properties that make it useful as a supervisory training signal: it is abundantly available without human annotations, and it is known to convey information about objects and scenes. It is also complementary to visual information, and may therefore convey information not easily obtainable from unlabeled image analysis.
+In this work, we proposed using ambient sound to learn visual representations. We introduced a model, based on convolutional neural networks, that predicts a statistical sound summary from a video frame. We then showed, with visualizations and experiments on recognition tasks, that the resulting image representation contains information about objects and scenes.
+Here we considered one audio representation, based on sound textures, but it is natural to ask whether other audio representations would lead the model to learn about additional types of objects. To help answer this question, we would like to more systematically study the situations when sound does (and does not) tell us about objects in the visual world. Ultimately, we would like to know what object and scene structures are detectable through sound-based training, and we see our work as a step in this direction.
