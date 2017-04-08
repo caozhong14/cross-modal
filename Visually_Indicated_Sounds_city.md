@@ -30,7 +30,7 @@ Current generative frameworks use end-to-end learning and generate images by sam
 We present a novel Style and Structure GAN which factorizes the image gen- eration process. We show our model is more interpretable and generates more realistic images compared to the baselines. We also show that our method can learn RGBD representations in an unsupervised manner.
 
 
-## !!![Learning Aligned Cross-Modal Representations from Weakly Aligned Data](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Castrejon_Learning_Aligned_Cross-Modal_CVPR_2016_paper.pdf)
+## @@@[Learning Aligned Cross-Modal Representations from Weakly Aligned Data](http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Castrejon_Learning_Aligned_Cross-Modal_CVPR_2016_paper.pdf)
 
 **Abstract**
 People can recognize scenes across many different modalities beyond natural images. In this paper, we investigate how to learn cross-modal scene representations that transfer across modalities. To study this problem, we introduce a new cross-modal scene dataset. While convolutional neural networks can categorize cross-modal scenes well, they also learn an intermediate representation not aligned across modalities, which is undesirable for cross-modal transfer applications. We present methods to regularize cross-modal convolutional neural networks so that they have a shared representation that is agnostic of the modality. Our experiments suggest that our scene representation can help transfer representations across modalities for retrieval. Moreover, our visualizations suggest that units emerge in the shared representation that tend to activate on consistent concepts independently of the modality.
