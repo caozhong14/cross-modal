@@ -1,4 +1,4 @@
-## Colorful Image Colorization<a href="https://arxiv.org/pdf/1603.08511.pdf">
+## Colorful Image Colorization(https://arxiv.org/pdf/1603.08511.pdf)
 
 *Abstract.*
 Given a grayscale photograph as input, this paper attacks the problem of hallucinating a plausible color version of the photograph.This problem is clearly underconstrained, so previous approaches have either relied on significant user interaction or resulted in desaturated col- orizations.
